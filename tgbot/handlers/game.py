@@ -90,7 +90,7 @@ async def the_game(message, state: FSMContext):
     player_points = data.get("player_points")
     opponent_points = data.get("opponent_points")
 
-    max_rounds = 5
+    max_rounds = 20
 
     # проверяем не наступил ли конец игры
     if current_round <= max_rounds:
